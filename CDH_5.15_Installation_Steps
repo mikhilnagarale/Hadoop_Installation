@@ -29,6 +29,24 @@ mv /var/lib/mysql/ib_logfile* ./mysql_files
 
 cp /etc/my.cnf ./mysql_files
 
+-----------------------------------------------------------------------------------------------
+
+yum install git
+
+git --version
+
+git config --global user.name "Mikhil Nagarale"
+
+git config --global user.email "mikhil.nagarale@gmail.com"
+
+git config --list
+
+mkdir git_branch
+
+
+
+-----------------------------------------------------------------------------------------------
+
 vi my.cnf
 
 -----------------------------------------------------------------------------------------------
