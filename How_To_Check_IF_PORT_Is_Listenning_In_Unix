@@ -1,0 +1,11 @@
+#1) telnet
+
+yum install telnet
+telnet <remote_server_ip> <remote_server_port>
+
+#2) nc / NCat / NetCat
+yum install nc
+nc -zv <remote_server_ip> <remote_server_port>
+
+#3) netstat
+netstat -na |grep <remote_server_port>
