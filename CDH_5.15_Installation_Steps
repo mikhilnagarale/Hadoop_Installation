@@ -160,9 +160,11 @@ GRANT ALL ON oozie.* TO 'oozie'@'%' IDENTIFIED BY 'oozie';
 ----------------------------------------------------------------------------------------------------
 
 Cloudera Congig files-
-Cloudera Manager db config file & location
+#Cloudera Manager db config file & location
 Location- /etc/clouder-scm-server/db.properties
 
+#Cloudera Manager Server Logs
+Location- /var/log/cloudera-scm-server/cloudera-scm-server.log
 
 
 ----------------------------------------------------------------------------------------------------
