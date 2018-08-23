@@ -158,10 +158,12 @@ GRANT ALL ON oozie.* TO 'oozie'@'%' IDENTIFIED BY 'oozie';
 /usr/share/cmf/schema/scm_prepare_database.sh  mysql scm scm 
 
 ----------------------------------------------------------------------------------------------------
-
+systemctl start cloudera-scm-server
+tail -f /var/log/cloudera-scm-server/cloudera-scm-server.log  
+----------------------------------------------------------------------------------------------------
 Cloudera Congig files-
 #Cloudera Manager db config file & location
-Location- /etc/clouder-scm-server/db.properties
+Location- /etc/cloudera-scm-server/db.properties
 
 #Cloudera Manager Server Logs
 Location- /var/log/cloudera-scm-server/cloudera-scm-server.log
