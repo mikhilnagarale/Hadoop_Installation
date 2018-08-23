@@ -1,6 +1,0 @@
-yum install wget
-yum install mlocate
-yum install telnet
-yum install nc
-sed -i '7 s/enforcing/disabled/' /etc/selinux/config
-reboot
